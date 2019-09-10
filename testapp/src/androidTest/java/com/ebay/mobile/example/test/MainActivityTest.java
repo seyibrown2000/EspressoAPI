@@ -1,7 +1,7 @@
 package com.ebay.mobile.example.test;
 
 
-import org.junit.Before;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,11 +24,20 @@ public class MainActivityTest {
     @Test
     public void hide() {
 
+        onView(withId(R.id.textView))
+                .check(matches(withText("Hide me!")));
+
         onView(withId(R.id.button))
                 .check(matches(withText("Hide")))
                 .perform(click());
 
-        onView(withId(R.id.textView))
-                .check(matches(withText("Hide me!")));
+        onView(withId(R.id.button))
+                .check(matches(withText("SHOW")))
+                .perform(click());
+
+
+
+
     }
 }
+
