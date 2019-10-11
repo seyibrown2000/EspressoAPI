@@ -24,6 +24,8 @@ public class MainActivityTest {
     @Test
     public void hide() {
 
+        //Assert if Hide me text view is visible
+
         onView(withId(R.id.textView))
                 .check(matches(withText("Hide me!")));
 
@@ -31,9 +33,9 @@ public class MainActivityTest {
                 .check(matches(withText("Hide")))
                 .perform(click());
 
-        onView(withId(R.id.button))
-                .check(matches(withText("SHOW")))
-                .perform(click());
+        onView(withId(R.id.button)).check(matches(withText("SHOW"))).perform(click());
+               // .check(matches(withText("SHOW")))
+               // .perform(click());
 
 
 
