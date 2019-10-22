@@ -25,6 +25,7 @@ public class MainActivityTest {
     public void hide() {
 
         //Assert if Hide me text view isDisplay
+        //Assert if button isEnable
 
         onView(withId(R.id.textView))
                 .check(matches(withText("Hide me!")));
