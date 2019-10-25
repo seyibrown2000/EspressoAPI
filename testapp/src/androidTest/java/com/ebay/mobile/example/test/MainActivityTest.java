@@ -29,7 +29,7 @@ public class MainActivityTest {
         onView(withId(R.id.textView))
                 .check(matches(withText("Hide me!")));
 
-        //Assert if button isDisplay
+        //Assert if button isDisplay or Enabled
 
         onView(withId(R.id.button))
                 .check(matches(withText("Hide")))
