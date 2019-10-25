@@ -29,6 +29,8 @@ public class MainActivityTest {
         onView(withId(R.id.textView))
                 .check(matches(withText("Hide me!")));
 
+        //Assert if button isDisplay
+
         onView(withId(R.id.button))
                 .check(matches(withText("Hide")))
                 .perform(click());

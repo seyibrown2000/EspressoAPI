@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a73602-70d7-458c-b594-7a08438434f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="287">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -136,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571729144778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java">
+      <created>1571729585832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571729585832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Espresso Update">
+      <created>1571729715549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571729715549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -150,7 +165,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.34673747" />
@@ -162,10 +176,10 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49924126" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="0" sideWeight="0.49468893" visible="true" weight="0.32833335" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49317148" weight="0.32833335" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848256" weight="0.32833335" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5053111" side_tool="true" visible="true" weight="0.32833335" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49848256" visible="true" weight="0.42666668" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50682855" side_tool="true" weight="0.32833335" />
       <window_info anchor="bottom" id="Build" order="4" weight="0.32833335" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -228,7 +242,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Espresso Project" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java" />
+    <MESSAGE value="Espresso Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Espresso Update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testapp/src/main/AndroidManifest.xml">
@@ -245,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/src/androidTest/java/com/ebay/mobile/example/test/MainActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="287">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
         </state>
       </provider>
     </entry>
